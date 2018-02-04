@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <% include ../partials/head %>
+</head>
+
+<body class="container">
+
+    <header class="clearfix">
+        <% include ../partials/header %>
+    </header>
+
+    <main class="clearfix">
+        <% include ../partials/sidemenu %>
+            <div class="col-md-7 rykned">
+                <% nyheder.forEach(function(nyhed){ %>
+                    <div>
+                        <h3>
+                            <%= nyhed.overskrift %>
+                        </h3>
+                        <p>
+                            <%= nyhed.dato %>
+                        </p>
+                        <p>
+                            <%= nyhed.tekst %>
+                        </p>
+                        <a href="?nyhed=<%= nyhed.id %>">LÆS MERE...</a>
+                    </div>
+                    <% }) %>
+            </div>
+    </main>
+
+    <footer>
+        <% include ../partials/footer %>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <% include ../partials/head %>
+</head>
+
+<body class="container">
+
+    <header class="clearfix">
+        <% include ../partials/header %>
+    </header>
+
+    <main class="clearfix">
+        <% include ../partials/sidemenu %>
+            <div class="col-md-4 clearfix rykned">
+                <img src="/images/<%= produkter.billede %>.jpg">
+                <h3>
+                    <b>
+                        <%= produkter.navn %>
+                    </b>
+
+                </h3>
+                <p>
+                    <%= produkter.producent %>
+                </p>
+                <p>
+                    DKK
+                    <b>
+                        <%= produkter.pris %> kr.</b>
+                </p>
+                <p>
+                    <%= produkter.beskrivelse %>
+                </p>
+                <a href="/produkter">
+                    <button class="info ryknedd">TILBAGE</button>
+                </a>
+            </div>
+    </main>
+
+    <footer>
+        <% include ../partials/footer %>
+    </footer>
+
+</body>
+
+</html>

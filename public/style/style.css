@@ -1,0 +1,74 @@
+.navbar{
+    background-color: #000;
+    border-color: #000;
+}
+.navbar-default .navbar-nav>li>a{
+    color: #FFF;
+}
+#logo, #logo img{
+    margin-top: -20px;
+    width: 361px;
+    height: 150px;
+}
+.links li>a, .links a {
+    color: #FFF;
+    font-size: 20px;
+    padding: 0;
+}
+
+#ul_style{
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   width: 200px;
+   background-color: #000;
+   border: 1px solid #fff;
+
+}
+
+
+#ul_style  li a {
+   display: block;
+   color: #fff;
+   padding: 12px 20px;
+   text-decoration: none;
+}
+
+#ul_style  li {
+   text-align: left;
+   border-bottom: 1px solid #fff;
+}
+
+#ul_style  li:last-child {
+   border-bottom: none;
+}
+.rykop{
+   padding-top: 90px;
+}
+
+.rykned{
+   padding-bottom: 36px;
+}
+
+.ryknedd{
+   padding-bottom: 80px;
+}
+
+.rykned2{
+   padding-top: 20px;
+}
+
+.rykned3{
+   padding-top: 70px;
+}
+
+.info{
+   background-color: black;
+   color: white;
+   border-radius: 15px;
+   padding: 2px;
+   padding-left: 20px;
+   padding-right: 20px;
+   border-color: black;
+   width: 150px;
+}

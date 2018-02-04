@@ -1,0 +1,63 @@
+<div class="col-md-3 clearfix">
+    <h4 class="nav-h4">PRODUKTER</h4>
+    <ul id="ul_style">
+        <li>
+            <a href="#">Alle</a>
+        </li>
+        <li>
+            <a href="#">Shoon</a>
+        </li>
+        <li>
+            <a href="#">Korea Special</a>
+        </li>
+        <li>
+            <a href="#">US, Imports</a>
+        </li>
+        <li>
+            <a href="#">Sleek Fabrics UK</a>
+        </li>
+    </ul>
+
+    <div class="col-md-10 rykned3">
+
+        <img class="col-md-8" src="/images/<%= test[0].billede %>.jpg">
+        <p class="rykop">
+            <b>
+                <%= test[0].producent %>
+            </b>
+        </p>
+        <p>
+            <%= test[0].navn %>
+        </p>
+        <p>
+            <b>DKK
+                <%= test[0].pris %> kr. </b>
+        </p>
+        <a href="/produkt/<%= test[0].id %>">
+            <button class="info ryknedd">INFO</button>
+        </a>
+
+
+
+
+        <img class="col-md-8" src="/images/<%= test[1].billede %>.jpg">
+        <p class="rykop">
+            <b>
+                <%= test[1].producent %>
+            </b>
+        </p>
+        <p>
+            <%= test[1].navn %>
+        </p>
+        <p>
+            <b>DKK
+                <%= test[1].pris %> kr.</b>
+        </p>
+        <a href="/produkt/<%= test[1].id %>">
+            <button class="info ryknedd">INFO</button>
+        </a>
+
+    </div>
+
+
+</div>

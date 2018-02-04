@@ -1,0 +1,26 @@
+[
+    {
+        "navn": "Anders Hansen",
+        "stilling": "Direktør",
+        "email": "chefen@slipseknuden.eu",
+        "billede": "anders"
+    },
+    {
+        "navn": "Annelise Johnson",
+        "stilling": "Sekretær",
+        "email": "info@@slipseknuden.eu",
+        "billede": "annelise"
+    },
+    {
+        "navn": "Jan Frandsen",
+        "stilling": "Sælger",
+        "email": "jf@slipseknuden.eu",
+        "billede": "jan"
+    },
+    {
+        "navn": "Joe Baylie",
+        "stilling": "Sælger",
+        "email": "jb@slipseknuden.eu",
+        "billede": "joe"
+    }
+]

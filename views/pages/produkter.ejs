@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <% include ../partials/head %>
+</head>
+
+<body class="container">
+
+    <header class="clearfix">
+        <% include ../partials/header %>
+    </header>
+
+    <main class="clearfix">
+        <% include ../partials/sidemenu %>
+            <% produkter.forEach(function(produkt){ %>
+                <div class="col-md-3 rykned">
+                    <img class="col-md-6" src="images/<%= produkt.billede %>.jpg">
+                    <p class="rykop">
+                        <h3>
+                            <%= produkt.navn %>
+                        </h3>
+                        <b>
+                            <%= produkt.producent %>
+                        </b>
+                    </p>
+                    <p>
+                        <b>DKK
+                            <%= produkt.pris %> kr. </b>
+                    </p>
+                    <a href="produkt/<%= produkt.id %>">
+                        <button class="info ryknedd">INFO</button>
+                    </a>
+                </div>
+                <%}) %>
+    </main>
+
+    <footer>
+        <% include ../partials/footer %>
+    </footer>
+</body>
+
+</html>

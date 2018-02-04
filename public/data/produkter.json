@@ -1,0 +1,114 @@
+[
+    {
+        "id": 1,
+        "navn": "Klassisk Brun",
+        "producent": "Shoon",
+        "beskrivelse": "Et klassisk slips til den brune habit",
+        "pris": 900,
+        "billede": "1_klassisk_brun"
+    },
+    {
+        "id": 2,
+        "navn": "Stribet stil",
+        "producent": "Shoon",
+        "beskrivelse": "Sort stribet - et rigtigt direktørslips",
+        "pris": 650,
+        "billede": "2_stribet_stil"
+    },
+    {
+        "id": 3,
+        "navn": "Brudgommens favorit",
+        "producent": "Korea Special",
+        "beskrivelse": "Skal du giftes? så skal det være det her!",
+        "pris": 350,
+        "billede": "3_brudgommens_favorit"
+    },
+    {
+        "id": 4,
+        "navn": "Sølvpil",
+        "producent": "US Imports",
+        "beskrivelse": "Er du til fest og farver så vælg dette fantastiske slips.",
+        "pris": 600,
+        "billede": "4_Soelvpil"
+    },
+    {
+        "id": 5,
+        "navn": "Rød F11",
+        "producent": "US Imports",
+        "beskrivelse": "Slipset til den store charmør :-)",
+        "pris": 700,
+        "billede": "5_roed_f11"
+    },
+    {
+        "id": 6,
+        "navn": "Blå kant",
+        "producent": "Sleek Fabrics UK",
+        "beskrivelse": " køb vores blå slips til barnedåben!",
+        "pris": 560,
+        "billede": "6_blaa_kant"
+    },
+    {
+        "id": 7,
+        "navn": "Fars favorit",
+        "producent": "Sleek Fabrics UK",
+        "beskrivelse": "klassisk slips med et twist.",
+        "pris": 900,
+        "billede": "7_fars_favorit"
+    },
+    {
+        "id": 8,
+        "navn": "Sort nat",
+        "producent": "Sleek Fabrics UK",
+        "beskrivelse": "slipset til den ultra stilbeviste",
+        "pris": 900,
+        "billede": "8_sort_nat"
+    },
+    {
+        "id": 9,
+        "navn": "Blue",
+        "producent": "Shoon Slips",
+        "beskrivelse": "Blåt med striber.",
+        "pris": 450,
+        "billede": "9_blue"
+    },
+    {
+        "id": 10,
+        "navn": "Tern",
+        "producent": "Sleek Fabrics UK",
+        "beskrivelse": "Perfekt til den klassiske blå skjorte.",
+        "pris": 800,
+        "billede": "10_tern"
+    },
+    {
+        "id": 11,
+        "navn": "Ræven",
+        "producent": "US Imports",
+        "beskrivelse": "Lækkert ræverødt slips.",
+        "pris": 790,
+        "billede": "11_raeven"
+    },
+    {
+        "id": 12,
+        "navn": "Kinini",
+        "producent": "Korea Special",
+        "beskrivelse": "Et lækkert slips i høj kvalitet.",
+        "pris": 780,
+        "billede": "12_kinini"
+    },
+    {
+        "id": 13,
+        "navn": "Europa",
+        "producent": "Sleek Fabrics UK",
+        "beskrivelse": "et lækkert slips i en super kvalitet.",
+        "pris": 500,
+        "billede": "13_europa"
+    },
+    {
+        "id": 14,
+        "navn": "Kina",
+        "producent": "Korea Special",
+        "beskrivelse": "Et super slips fra vores kinesiske designer",
+        "pris": 800,
+        "billede": "14_kina"
+    }
+]
